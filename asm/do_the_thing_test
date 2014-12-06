@@ -1,0 +1,2 @@
+ #!/bin/bash
+ mars_assemble test.asm proj.txt && cp proj.txt ../verilog/final_project/imem_values.txt && cp dmem_values.txt ../verilog/final_project/dmem_values.txt

@@ -1,0 +1,41 @@
+
+////////////////////////////////
+//       N E X Y S   3        //
+////////////////////////////////
+
+NET "clk" LOC = V10 | IOSTANDARD = "LVCMOS33";
+
+#NET "A[0]" LOC = T10 | IOSTANDARD = "LVCMOS33";
+#NET "A[1]" LOC = T9 | IOSTANDARD = "LVCMOS33";
+#NET "A[2]" LOC = V9 | IOSTANDARD = "LVCMOS33";
+#NET "A[3]" LOC = M8 | IOSTANDARD = "LVCMOS33";
+
+NET "digitselect[3]" LOC = P17 | IOSTANDARD = "LVCMOS33";
+NET "digitselect[2]" LOC = P18 | IOSTANDARD = "LVCMOS33";
+NET "digitselect[1]" LOC = N15 | IOSTANDARD = "LVCMOS33";
+NET "digitselect[0]" LOC = N16 | IOSTANDARD = "LVCMOS33";
+NET "segments[0]" LOC = M13 | IOSTANDARD = "LVCMOS33";
+NET "segments[1]" LOC = L14 | IOSTANDARD = "LVCMOS33";
+NET "segments[2]" LOC = N14 | IOSTANDARD = "LVCMOS33";
+NET "segments[3]" LOC = M14 | IOSTANDARD = "LVCMOS33";
+NET "segments[4]" LOC = U18 | IOSTANDARD = "LVCMOS33";
+NET "segments[5]" LOC = U17 | IOSTANDARD = "LVCMOS33";
+NET "segments[6]" LOC = T18 | IOSTANDARD = "LVCMOS33";
+NET "segments[7]" LOC = T17 | IOSTANDARD = "LVCMOS33";
+
+NET "ps2_data" LOC = J13 | PULLUP | IOSTANDARD = LVCMOS33;
+NET "ps2_clk" LOC  = L12 | PULLUP | IOSTANDARD = LVCMOS33;
+
+NET "red[0]" LOC = U7 | IOSTANDARD = "LVCMOS33";
+NET "red[1]" LOC = V7 | IOSTANDARD = "LVCMOS33";
+NET "red[2]" LOC = N7 | IOSTANDARD = "LVCMOS33";
+
+NET "green[0]" LOC = P8 | IOSTANDARD = "LVCMOS33";
+NET "green[1]" LOC = T6 | IOSTANDARD = "LVCMOS33";
+NET "green[2]" LOC = V6 | IOSTANDARD = "LVCMOS33";
+
+NET "blue[1]" LOC = R7 | IOSTANDARD = "LVCMOS33";
+NET "blue[2]" LOC = T7 | IOSTANDARD = "LVCMOS33";
+
+NET "hsync" LOC = N6 | IOSTANDARD = "LVCMOS33";
+NET "vsync" LOC = P7 | IOSTANDARD = "LVCMOS33";

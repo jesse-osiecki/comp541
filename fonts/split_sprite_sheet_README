@@ -1,0 +1,7 @@
+example command
+./split_sprite_sheet.py diamond-pearl.png 28 18 80 80
+where the first arg is the image
+the second is the max X of the sprite grid
+the third is the max y of the sprite grid
+the fourth is the height of the individual sprites
+the fifth is the width of the individual sprites
